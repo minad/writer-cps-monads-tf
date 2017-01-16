@@ -1,5 +1,5 @@
 name: writer-cps-monads-tf
-version: 0.1.0.0
+version: 0.1.0.1
 synopsis: MonadWriter orphan instances for writer-cps-transformers
 description:
   The WriterT and RWST monad transformers provided by writer-cps-transformers
@@ -23,7 +23,7 @@ dependencies:
 - base < 6
 - transformers >= 0.4 && < 0.6
 - monads-tf >= 0.1 && < 0.3
-- writer-cps-transformers >= 0.1 && < 0.3
+- writer-cps-transformers >= 0.1.1.1 && < 0.3
 
 tested-with:
   GHC == 7.0.4,

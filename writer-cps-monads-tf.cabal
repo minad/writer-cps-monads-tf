@@ -1,9 +1,9 @@
--- This file has been generated from package.yaml by hpack version 0.14.1.
+-- This file has been generated from package.yaml by hpack version 0.15.0.
 --
 -- see: https://github.com/sol/hpack
 
 name:           writer-cps-monads-tf
-version:        0.1.0.0
+version:        0.1.0.1
 synopsis:       MonadWriter orphan instances for writer-cps-transformers
 description:    The WriterT and RWST monad transformers provided by writer-cps-transformers are written in continuation passing style and avoid the space-leak problem of the traditional Control.Monad.Trans.Writer.Strict and Control.Monad.Trans.Writer.Lazy. See also (<http://hackage.haskell.org/package/writer-cps-transformers>).
 category:       Control
@@ -31,7 +31,7 @@ library
       base < 6
     , transformers >= 0.4 && < 0.6
     , monads-tf >= 0.1 && < 0.3
-    , writer-cps-transformers >= 0.1 && < 0.3
+    , writer-cps-transformers >= 0.1.1.1 && < 0.3
   exposed-modules:
       Control.Monad.RWS.CPS
       Control.Monad.Writer.CPS
