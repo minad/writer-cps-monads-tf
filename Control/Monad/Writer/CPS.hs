@@ -28,6 +28,7 @@ module Control.Monad.Writer.CPS (
   mapWriter,
   -- * The WriterT monad transformer
   WriterT,
+  writerT,
   runWriterT,
   execWriterT,
   mapWriterT,
